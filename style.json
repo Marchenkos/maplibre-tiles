@@ -3,6 +3,7 @@
     "name": "SC maplibre styles",
     "zoom": 0,
     "pitch": 0,
+    "version": "1.0.0",
     "center": [
         17.65431710431244,
         32.954120326746775
