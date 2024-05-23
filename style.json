@@ -4,10 +4,7 @@
     "zoom": 0,
     "pitch": 0,
     "version": 8,
-    "center": [
-        0,
-        32.954120326746775
-    ],
+    "center": [-10, 0 ],
     "glyphs": "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
     "layers": [
         {
