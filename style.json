@@ -29,7 +29,7 @@
             "source": "maplibre",
             "source-layer": "countries",
             "paint": {
-              "fill-color": "#e4e4e4"
+                "fill-color": "#e4e4e4"
             }
         },
         {
@@ -61,7 +61,7 @@
                 "visibility": "none"
             },
             "paint": {
-              "fill-color": "#e4e4e4"
+                "fill-color": "#e4e4e4"
             }
         },
         {
@@ -92,7 +92,7 @@
                 "visibility": "none"
             },
             "paint": {
-              "fill-color": "#e4e4e4"
+                "fill-color": "#e4e4e4"
             }
         },
         {
@@ -123,7 +123,7 @@
                 "visibility": "none"
             },
             "paint": {
-              "fill-color": "#e4e4e4"
+                "fill-color": "#e4e4e4"
             }
         },
         {
@@ -261,11 +261,11 @@
             "minzoom": 2,
             "source-layer": "centroids"
         },
-          {
+        {
             "id": "european-union-label",
             "type": "symbol",
             "paint": {
-                "text-color": "rgba(8, 37, 77, 1)",
+                "text-color": "rgba(8, 37, 77, 1)"
             },
             "filter": [
                 "all"
@@ -298,18 +298,18 @@
                         ]
                     ]
                 },
-                "visibility": "visible",
+                "visibility": "none",
                 "text-max-width": 6
             },
             "source": "european-union-source",
             "maxzoom": 24,
-            "minzoom": 2,
+            "minzoom": 2
         },
         {
             "id": "europe-label",
             "type": "symbol",
             "paint": {
-                "text-color": "rgba(8, 37, 77, 1)",
+                "text-color": "rgba(8, 37, 77, 1)"
             },
             "filter": [
                 "all"
@@ -342,12 +342,12 @@
                         ]
                     ]
                 },
-                "visibility": "visible",
+                "visibility": "none",
                 "text-max-width": 6
             },
             "source": "europe-source",
             "maxzoom": 24,
-            "minzoom": 2,
+            "minzoom": 2
         },
         {
             "id": "us-states-label",
@@ -386,7 +386,7 @@
                         ]
                     ]
                 },
-                "visibility": "visible",
+                "visibility": "none",
                 "text-max-width": 6
             },
             "source": "us-states-source",
