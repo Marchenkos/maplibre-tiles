@@ -218,7 +218,7 @@
         "data": "https://marchenkos.github.io/maplibre-tiles/us_states.geojson",
         "type": "geojson"
       },
-    "us-states-source": {
+    "european-union-source": {
         "data": "https://marchenkos.github.io/maplibre-tiles/european_union_countries.geojson",
         "type": "geojson"
       }
