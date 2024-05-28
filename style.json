@@ -36,12 +36,17 @@
             "fill-opacity": 0.4
           },
           "filter": ["all", ["==", "NAME", ""]],
+        "layout": {
           "visibility": "visible"
+        }
         },
         {
           "id": "states-fill",
           "type": "fill",
-          "source": "us-states-source"
+          "source": "us-states-source",
+          "layout": {
+              "visibility": "none"
+            }
         },
         {
           "id": "states-hover",
@@ -52,12 +57,17 @@
             "fill-opacity": 0.4
           },
           "filter": ["all", ["==", "NAME", ""]],
-          "visibility": "none"
+            "layout": {
+              "visibility": "none"
+            }
         },
         {
           "id": "europe-countries-fill",
           "type": "fill",
-          "source": "europe-source"
+          "source": "europe-source",
+            "layout": {
+              "visibility": "none"
+            }
         },
           {
           "id": "europe-countries-hover",
@@ -68,12 +78,17 @@
             "fill-opacity": 0.4
           },
           "filter": ["all", ["==", "NAME", ""]],
-          "visibility": "none"
+          "layout": {
+              "visibility": "none"
+            }
         },
         {
           "id": "european-union-countries-fill",
           "type": "fill",
-          "source": "european-union-source"
+          "source": "european-union-source",
+            "layout": {
+              "visibility": "none"
+            }
         },
         {
           "id": "european-union-countries-hover",
@@ -84,7 +99,9 @@
             "fill-opacity": 0.4
           },
           "filter": ["all", ["==", "NAME", ""]],
-          "visibility": "none"
+            "layout": {
+              "visibility": "none"
+            }
         },
         {
           "id": "countries-boundary",
