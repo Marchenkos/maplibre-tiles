@@ -36,7 +36,7 @@
           "source-layer": "countries"
         },
         {
-          "id": "country-fills-hover",
+          "id": "country-hover",
           "type": "fill",
           "source": "maplibre",
           "source-layer": "countries",
@@ -44,7 +44,41 @@
             "fill-color": "#FFFFFF",
             "fill-opacity": 0.4
           },
-          "filter": ["all", ["==", "NAME", ""]]
+          "filter": ["all", ["==", "NAME", ""]],
+          "visibility": "visible"
+        },
+        {
+          "id": "states-hover",
+          "type": "fill",
+          "source": "us-states-source",
+          "paint": {
+            "fill-color": "#FFFFFF",
+            "fill-opacity": 0.4
+          },
+          "filter": ["all", ["==", "NAME", ""]],
+          "visibility": "none"
+        },
+          {
+          "id": "europe-countries-hover",
+          "type": "fill",
+          "source": "europe-source",
+          "paint": {
+            "fill-color": "#FFFFFF",
+            "fill-opacity": 0.4
+          },
+          "filter": ["all", ["==", "NAME", ""]],
+          "visibility": "none",
+        },
+        {
+          "id": "european-union-countries-hover",
+          "type": "fill",
+          "source": "european-union-source",
+          "paint": {
+            "fill-color": "#FFFFFF",
+            "fill-opacity": 0.4
+          },
+          "filter": ["all", ["==", "NAME", ""]],
+          "visibility": "none"
         },
         {
             "id": "countries-label",
@@ -137,6 +171,18 @@
       "maplibre": {
         "url": "https://demotiles.maplibre.org/tiles/tiles.json",
         "type": "vector"
+      },
+      "europe-source": {
+        "data": "https://marchenkos.github.io/maplibre-tiles/europe_countries.geojson",
+        "type": "geojson"
+      },
+    "us-states-source": {
+        "data": "https://marchenkos.github.io/maplibre-tiles/us_states.geojson",
+        "type": "geojson"
+      },
+    "us-states-source": {
+        "data": "https://marchenkos.github.io/maplibre-tiles/european_union_countries.geojson",
+        "type": "geojson"
       }
     }
 }
