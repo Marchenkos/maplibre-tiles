@@ -33,7 +33,7 @@
             }
         },
         {
-            "id": "country-hover",
+            "id": "countries-hover",
             "type": "fill",
             "source": "maplibre",
             "source-layer": "countries",
