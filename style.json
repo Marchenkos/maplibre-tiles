@@ -203,7 +203,51 @@
             "maxzoom": 24,
             "minzoom": 2,
             "source-layer": "centroids"
-        }
+        },
+        {
+          "id": "us-states-label",
+          "type": "symbol",
+          "paint": {
+              "text-color": "rgba(8, 37, 77, 1)",
+          },
+          "filter": [
+              "all"
+          ],
+          "layout": {
+              "text-font": [
+                  "Open Sans Semibold"
+              ],
+              "text-size": {
+                  "stops": [
+                      [
+                          2,
+                          10
+                      ],
+                      [
+                          4,
+                          12
+                      ],
+                      [
+                          6,
+                          16
+                      ]
+                  ]
+              },
+              "text-field": {
+                  "stops": [
+                      [
+                          4,
+                          "{name}"
+                      ]
+                  ]
+              },
+              "visibility": "visible",
+              "text-max-width": 6
+          },
+          "source": "us-states-source",
+          "maxzoom": 24,
+          "minzoom": 2
+      }
     ],
     "sources": {
       "maplibre": {
