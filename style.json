@@ -4,133 +4,164 @@
     "zoom": 0,
     "pitch": 0,
     "version": 8,
-    "center": [0, 0],
+    "center": [
+        0,
+        0
+    ],
     "glyphs": "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "background",
             "type": "background",
             "paint": {
-              "background-color": "#ffffff"
+                "background-color": "#ffffff"
             },
             "filter": [
-              "all"
+                "all"
             ],
             "layout": {
-              "visibility": "visible"
+                "visibility": "visible"
             }
         },
         {
-          "id": "countries-fill",
-          "type": "fill",
-          "source": "maplibre",
-          "source-layer": "countries"
+            "id": "countries-fill",
+            "type": "fill",
+            "source": "maplibre",
+            "source-layer": "countries"
         },
         {
-          "id": "country-hover",
-          "type": "fill",
-          "source": "maplibre",
-          "source-layer": "countries",
-          "paint": {
-            "fill-color": "#FFFFFF",
-            "fill-opacity": 0.4
-          },
-          "filter": ["all", ["==", "NAME", ""]],
-        "layout": {
-          "visibility": "visible"
-        }
-        },
-        {
-          "id": "states-fill",
-          "type": "fill",
-          "source": "us-states-source",
-          "layout": {
-              "visibility": "none"
-            }
-        },
-        {
-          "id": "states-hover",
-          "type": "fill",
-          "source": "us-states-source",
-          "paint": {
-            "fill-color": "#FFFFFF",
-            "fill-opacity": 0.4
-          },
-          "filter": ["all", ["==", "NAME", ""]],
+            "id": "country-hover",
+            "type": "fill",
+            "source": "maplibre",
+            "source-layer": "countries",
+            "paint": {
+                "fill-color": "#FFFFFF",
+                "fill-opacity": 0.4
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "NAME",
+                    ""
+                ]
+            ],
             "layout": {
-              "visibility": "none"
+                "visibility": "visible"
             }
         },
         {
-          "id": "europe-countries-fill",
-          "type": "fill",
-          "source": "europe-source",
+            "id": "states-fill",
+            "type": "fill",
+            "source": "us-states-source",
             "layout": {
-              "visibility": "none"
-            }
-        },
-          {
-          "id": "europe-countries-hover",
-          "type": "fill",
-          "source": "europe-source",
-          "paint": {
-            "fill-color": "#FFFFFF",
-            "fill-opacity": 0.4
-          },
-          "filter": ["all", ["==", "NAME", ""]],
-          "layout": {
-              "visibility": "none"
+                "visibility": "none"
             }
         },
         {
-          "id": "european-union-countries-fill",
-          "type": "fill",
-          "source": "european-union-source",
+            "id": "states-hover",
+            "type": "fill",
+            "source": "us-states-source",
+            "paint": {
+                "fill-color": "#FFFFFF",
+                "fill-opacity": 0.4
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "NAME",
+                    ""
+                ]
+            ],
             "layout": {
-              "visibility": "none"
+                "visibility": "none"
             }
         },
         {
-          "id": "european-union-countries-hover",
-          "type": "fill",
-          "source": "european-union-source",
-          "paint": {
-            "fill-color": "#FFFFFF",
-            "fill-opacity": 0.4
-          },
-          "filter": ["all", ["==", "NAME", ""]],
+            "id": "europe-countries-fill",
+            "type": "fill",
+            "source": "europe-source",
             "layout": {
-              "visibility": "none"
+                "visibility": "none"
             }
         },
         {
-          "id": "countries-boundary",
-          "type": "line",
-          "paint": {
-            "line-color": "#5a5a5a",
-            "line-width": 1
-          },
-          "layout": {
-              "line-cap": "round",
-              "line-join": "round",
-              "visibility": "visible"
-          },
-          "source": "maplibre",
-          "source-layer": "countries"
+            "id": "europe-countries-hover",
+            "type": "fill",
+            "source": "europe-source",
+            "paint": {
+                "fill-color": "#FFFFFF",
+                "fill-opacity": 0.4
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "NAME",
+                    ""
+                ]
+            ],
+            "layout": {
+                "visibility": "none"
+            }
         },
         {
-          "id": "us-states-boundary",
-          "type": "line",
-          "paint": {
-            "line-color": "#5a5a5a",
-            "line-width": 1
-          },
-          "layout": {
-              "line-cap": "round",
-              "line-join": "round",
-              "visibility": "none"
-          },
-          "source": "us-states-source"
+            "id": "european-union-countries-fill",
+            "type": "fill",
+            "source": "european-union-source",
+            "layout": {
+                "visibility": "none"
+            }
+        },
+        {
+            "id": "european-union-countries-hover",
+            "type": "fill",
+            "source": "european-union-source",
+            "paint": {
+                "fill-color": "#FFFFFF",
+                "fill-opacity": 0.4
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "NAME",
+                    ""
+                ]
+            ],
+            "layout": {
+                "visibility": "none"
+            }
+        },
+        {
+            "id": "countries-boundary",
+            "type": "line",
+            "paint": {
+                "line-color": "#5a5a5a",
+                "line-width": 1
+            },
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round",
+                "visibility": "visible"
+            },
+            "source": "maplibre",
+            "source-layer": "countries"
+        },
+        {
+            "id": "us-states-boundary",
+            "type": "line",
+            "paint": {
+                "line-color": "#5a5a5a",
+                "line-width": 1
+            },
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round",
+                "visibility": "none"
+            },
+            "source": "us-states-source"
         },
         {
             "id": "countries-label",
@@ -219,66 +250,66 @@
             "source-layer": "centroids"
         },
         {
-          "id": "us-states-label",
-          "type": "symbol",
-          "paint": {
-              "text-color": "rgba(8, 37, 77, 1)",
-          },
-          "filter": [
-              "all"
-          ],
-          "layout": {
-              "text-font": [
-                  "Open Sans Semibold"
-              ],
-              "text-size": {
-                  "stops": [
-                      [
-                          2,
-                          10
-                      ],
-                      [
-                          4,
-                          12
-                      ],
-                      [
-                          6,
-                          16
-                      ]
-                  ]
-              },
-              "text-field": {
-                  "stops": [
-                      [
-                          4,
-                          "{name}"
-                      ]
-                  ]
-              },
-              "visibility": "visible",
-              "text-max-width": 6
-          },
-          "source": "us-states-source",
-          "maxzoom": 24,
-          "minzoom": 2
-      }
+            "id": "us-states-label",
+            "type": "symbol",
+            "paint": {
+                "text-color": "rgba(8, 37, 77, 1)"
+            },
+            "filter": [
+                "all"
+            ],
+            "layout": {
+                "text-font": [
+                    "Open Sans Semibold"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            2,
+                            10
+                        ],
+                        [
+                            4,
+                            12
+                        ],
+                        [
+                            6,
+                            16
+                        ]
+                    ]
+                },
+                "text-field": {
+                    "stops": [
+                        [
+                            4,
+                            "{name}"
+                        ]
+                    ]
+                },
+                "visibility": "visible",
+                "text-max-width": 6
+            },
+            "source": "us-states-source",
+            "maxzoom": 24,
+            "minzoom": 2
+        }
     ],
     "sources": {
-      "maplibre": {
-        "url": "https://demotiles.maplibre.org/tiles/tiles.json",
-        "type": "vector"
-      },
-      "europe-source": {
-        "data": "https://marchenkos.github.io/maplibre-tiles/europe_countries.geojson",
-        "type": "geojson"
-      },
-    "us-states-source": {
-        "data": "https://marchenkos.github.io/maplibre-tiles/us_states.geojson",
-        "type": "geojson"
-      },
-    "european-union-source": {
-        "data": "https://marchenkos.github.io/maplibre-tiles/european_union_countries.geojson",
-        "type": "geojson"
-      }
+        "maplibre": {
+            "url": "https://demotiles.maplibre.org/tiles/tiles.json",
+            "type": "vector"
+        },
+        "europe-source": {
+            "data": "https://marchenkos.github.io/maplibre-tiles/europe_countries.geojson",
+            "type": "geojson"
+        },
+        "us-states-source": {
+            "data": "https://marchenkos.github.io/maplibre-tiles/us_states.geojson",
+            "type": "geojson"
+        },
+        "european-union-source": {
+            "data": "https://marchenkos.github.io/maplibre-tiles/european_union_countries.geojson",
+            "type": "geojson"
+        }
     }
 }
