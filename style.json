@@ -261,6 +261,94 @@
             "minzoom": 2,
             "source-layer": "centroids"
         },
+          {
+            "id": "european-union-label",
+            "type": "symbol",
+            "paint": {
+                "text-color": "rgba(8, 37, 77, 1)",
+            },
+            "filter": [
+                "all"
+            ],
+            "layout": {
+                "text-font": [
+                    "Open Sans Semibold"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            2,
+                            10
+                        ],
+                        [
+                            4,
+                            12
+                        ],
+                        [
+                            6,
+                            16
+                        ]
+                    ]
+                },
+                "text-field": {
+                    "stops": [
+                        [
+                            4,
+                            "{NAME}"
+                        ]
+                    ]
+                },
+                "visibility": "visible",
+                "text-max-width": 6
+            },
+            "source": "european-union-source",
+            "maxzoom": 24,
+            "minzoom": 2,
+        },
+        {
+            "id": "europe-label",
+            "type": "symbol",
+            "paint": {
+                "text-color": "rgba(8, 37, 77, 1)",
+            },
+            "filter": [
+                "all"
+            ],
+            "layout": {
+                "text-font": [
+                    "Open Sans Semibold"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            2,
+                            10
+                        ],
+                        [
+                            4,
+                            12
+                        ],
+                        [
+                            6,
+                            16
+                        ]
+                    ]
+                },
+                "text-field": {
+                    "stops": [
+                        [
+                            4,
+                            "{NAME}"
+                        ]
+                    ]
+                },
+                "visibility": "visible",
+                "text-max-width": 6
+            },
+            "source": "europe-source",
+            "maxzoom": 24,
+            "minzoom": 2,
+        },
         {
             "id": "us-states-label",
             "type": "symbol",
