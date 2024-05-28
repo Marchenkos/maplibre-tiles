@@ -27,7 +27,10 @@
             "id": "countries-fill",
             "type": "fill",
             "source": "maplibre",
-            "source-layer": "countries"
+            "source-layer": "countries",
+            "paint": {
+              "fill-color": "#e4e4e4"
+            }
         },
         {
             "id": "country-hover",
@@ -56,6 +59,9 @@
             "source": "us-states-source",
             "layout": {
                 "visibility": "none"
+            },
+            "paint": {
+              "fill-color": "#e4e4e4"
             }
         },
         {
@@ -84,6 +90,9 @@
             "source": "europe-source",
             "layout": {
                 "visibility": "none"
+            },
+            "paint": {
+              "fill-color": "#e4e4e4"
             }
         },
         {
@@ -112,6 +121,9 @@
             "source": "european-union-source",
             "layout": {
                 "visibility": "none"
+            },
+            "paint": {
+              "fill-color": "#e4e4e4"
             }
         },
         {
