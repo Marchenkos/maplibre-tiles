@@ -24,7 +24,7 @@
             }
         },
         {
-            "id": "world-countries-fill",
+            "id": "countries-fill",
             "type": "fill",
             "source": "maplibre",
             "source-layer": "countries",
