@@ -147,7 +147,7 @@
             }
         },
         {
-            "id": "countries-boundary",
+            "id": "world-countries-boundary",
             "type": "line",
             "paint": {
                 "line-color": "#9f9d9d",
@@ -160,6 +160,34 @@
             },
             "source": "maplibre",
             "source-layer": "countries"
+        },
+            {
+            "id": "europe-countries-boundary",
+            "type": "line",
+            "paint": {
+                "line-color": "#9f9d9d",
+                "line-width": 1
+            },
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round",
+                "visibility": "none"
+            },
+            "source": "europe-source"
+        },
+        {
+            "id": "european-union-countries-boundary",
+            "type": "line",
+            "paint": {
+                "line-color": "#9f9d9d",
+                "line-width": 1
+            },
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round",
+                "visibility": "none"
+            },
+            "source": "european-union-source"
         },
         {
             "id": "us-states-boundary",
