@@ -33,7 +33,7 @@
             }
         },
         {
-            "id": "world-countries-hover",
+            "id": "countries-hover",
             "type": "fill",
             "source": "maplibre",
             "source-layer": "countries",
@@ -68,68 +68,6 @@
             "id": "us-states-hover",
             "type": "fill",
             "source": "us-states-source",
-            "paint": {
-                "fill-color": "#FFFFFF",
-                "fill-opacity": 0.4
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "NAME",
-                    ""
-                ]
-            ],
-            "layout": {
-                "visibility": "none"
-            }
-        },
-        {
-            "id": "europe-countries-fill",
-            "type": "fill",
-            "source": "europe-source",
-            "layout": {
-                "visibility": "none"
-            },
-            "paint": {
-                "fill-color": "#e4e4e4"
-            }
-        },
-        {
-            "id": "europe-countries-hover",
-            "type": "fill",
-            "source": "europe-source",
-            "paint": {
-                "fill-color": "#FFFFFF",
-                "fill-opacity": 0.4
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "NAME",
-                    ""
-                ]
-            ],
-            "layout": {
-                "visibility": "none"
-            }
-        },
-        {
-            "id": "european-union-countries-fill",
-            "type": "fill",
-            "source": "european-union-source",
-            "layout": {
-                "visibility": "none"
-            },
-            "paint": {
-                "fill-color": "#e4e4e4"
-            }
-        },
-        {
-            "id": "european-union-countries-hover",
-            "type": "fill",
-            "source": "european-union-source",
             "paint": {
                 "fill-color": "#FFFFFF",
                 "fill-opacity": 0.4
