@@ -24,7 +24,7 @@
             }
         },
         {
-            "id": "countries-fill",
+            "id": "world-countries-fill",
             "type": "fill",
             "source": "maplibre",
             "source-layer": "countries",
@@ -33,7 +33,7 @@
             }
         },
         {
-            "id": "countries-hover",
+            "id": "world-countries-hover",
             "type": "fill",
             "source": "maplibre",
             "source-layer": "countries",
@@ -54,7 +54,7 @@
             }
         },
         {
-            "id": "states-fill",
+            "id": "us-states-fill",
             "type": "fill",
             "source": "us-states-source",
             "layout": {
@@ -65,7 +65,7 @@
             }
         },
         {
-            "id": "states-hover",
+            "id": "us-states-hover",
             "type": "fill",
             "source": "us-states-source",
             "paint": {
@@ -176,7 +176,7 @@
             "source": "us-states-source"
         },
         {
-            "id": "countries-label",
+            "id": "world-countries-label",
             "type": "symbol",
             "paint": {
                 "text-color": "rgba(8, 37, 77, 1)",
