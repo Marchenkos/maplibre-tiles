@@ -117,39 +117,14 @@
             "id": "countries-label",
             "type": "symbol",
             "paint": {
-                "text-color": "rgba(8, 37, 77, 1)",
-                "text-halo-blur": {
-                    "stops": [
-                        [
-                            2,
-                            0.2
-                        ],
-                        [
-                            6,
-                            0
-                        ]
-                    ]
-                },
-                "text-halo-color": "rgba(255, 255, 255, 1)",
-                "text-halo-width": {
-                    "stops": [
-                        [
-                            2,
-                            1
-                        ],
-                        [
-                            6,
-                            1.6
-                        ]
-                    ]
-                }
+                "text-color": "rgba(8, 37, 77, 1)"
             },
             "filter": [
                 "all"
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Semibold"
+                    "Inter"
                 ],
                 "text-size": {
                     "stops": [
@@ -170,29 +145,17 @@
                 "text-field": {
                     "stops": [
                         [
-                            2,
+                            1,
                             "{ABBREV}"
                         ],
                         [
-                            4,
+                            3,
                             "{NAME}"
                         ]
                     ]
                 },
                 "visibility": "visible",
-                "text-max-width": 10,
-                "text-transform": {
-                    "stops": [
-                        [
-                            0,
-                            "uppercase"
-                        ],
-                        [
-                            2,
-                            "none"
-                        ]
-                    ]
-                }
+                "text-max-width": 10
             },
             "source": "maplibre",
             "maxzoom": 24,
@@ -210,7 +173,7 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Semibold"
+                    "Inter"
                 ],
                 "text-size": {
                     "stops": [
@@ -231,8 +194,8 @@
                 "text-field": {
                     "stops": [
                         [
-                            4,
-                            "{name}"
+                            2,
+                            "{NAME}"
                         ]
                     ]
                 },
