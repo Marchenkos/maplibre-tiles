@@ -8,7 +8,7 @@
         0,
         0
     ],
-    "glyphs": "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
+    "glyphs": "https://marchenkos.github.io/maplibre-tiles/font/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "background",
